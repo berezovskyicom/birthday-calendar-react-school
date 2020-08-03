@@ -1,0 +1,30 @@
+.Button {
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ccc;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button.Red {
+  background-color: #F21905;
+  color: #ffffff;
+}
+
+.Button.Green {
+  background-color: #7ED93D;
+}
+
+.Button.Blue {
+  background-color: #076DF2;
+  color: #ffffff;
+}
+
+.Button.Gray {
+  background-color: #ccc;
+}

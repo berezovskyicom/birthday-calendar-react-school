@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 5rem auto;
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+  header > button {
+    width: 100%;
+  }
+}
